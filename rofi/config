@@ -3,22 +3,22 @@ The script command 'window' has 1 options, but needs 2: <name>:<script>.
 Invalid script switcher: window
 ! Enabled modi
 rofi.modi:                           window,run,ssh
-! Window opacity                     50
-rofi.opacity:                        
+! Window opacity
+rofi.opacity:                        90
 ! Window width
 rofi.width:                          100
 ! Number of lines
-rofi.lines:                          5
+rofi.lines:                          4
 ! Number of columns
 rofi.columns:                        1
 ! Font to use
-rofi.font:                           System San Fransisco 14
+rofi.font:                           System San Fransisco Display 14
 ! Color scheme for normal row
 rofi.color-normal:                   #222222, #b1b4b3, #222222, #005577, #b1b4b3
 ! Color scheme for urgent row
 rofi.color-urgent:                   #222222, #b1b4b3, #222222, #77003d, #b1b4b3
 ! Color scheme for active row
-rofi.color-active:                   #222222, #b1b4b3, #222222, #007763, #b1b4b3
+rofi.color-active:                   222222, #b1b4b3, #222222, #007763, #b1b4b3" 
 ! Color scheme window
 rofi.color-window:                   #222222, #222222, #b1b4b3
 ! Border width
@@ -26,9 +26,9 @@ rofi.bw:                             1
 ! Location on screen
 rofi.location:                       0
 ! Padding
-rofi.padding:                        340
+rofi.padding:                        320
 ! Y-offset relative to location
-rofi.yoffset:                        -365
+rofi.yoffset:                        0
 ! X-offset relative to location
 rofi.xoffset:                        0
 ! Always show number of lines
@@ -58,7 +58,7 @@ rofi.cycle:                          true
 ! Enable sidebar-mode
 rofi.sidebar-mode:                   false
 ! Row height (in chars)
-rofi.eh:                             1
+rofi.eh:                             2
 ! Enable auto select mode
 rofi.auto-select:                    false
 ! Parse hosts file for ssh mode
@@ -88,7 +88,7 @@ rofi.hide-scrollbar:                 false
 ! Fullscreen
 rofi.fullscreen:                     false
 ! Fake transparency
-rofi.fake-transparency:              true
+rofi.fake-transparency:              false
 ! DPI
 rofi.dpi:                            -1
 ! Threads to use for string matching
@@ -98,7 +98,7 @@ rofi.scrollbar-width:                8
 ! Scrolling method. (0: Page, 1: Centered)
 rofi.scroll-method:                  0
 ! Background to use for fake transparency. (background or screenshot)
-rofi.fake-background:                background
+rofi.fake-background:                screenshot
 ! Pidfile location
 rofi.pid:                            /run/user/1000/rofi.pid
 ! Paste primary selection
@@ -120,7 +120,7 @@ rofi.kb-move-char-back:              Left,Control+b
 ! Move forward one char
 rofi.kb-move-char-forward:           Right,Control+f
 ! Delete previous word
-rofi.kb-remove-word-back:            Control+Alt+h,Control+BackSpace
+rofi.kb-remove-word-back:            Control+Alt+h,Control+Backspace
 ! Delete next word
 rofi.kb-remove-word-forward:         Control+Alt+d
 ! Delete next char
