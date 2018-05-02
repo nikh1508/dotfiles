@@ -10,10 +10,11 @@
 [colors]
 ;background = ${xrdb:color0:#222}
 ;background = #222
-background = #00000000
+background = #80000000
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
+;foreground = #dfdfdf
+foreground = #C1C8CF
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -54,7 +55,7 @@ font-3 = FontAwesome:pixelsize=15;2
 
 modules-left = bspwm i3
 modules-center = 
-modules-right = filesystem xbacklight volume xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = filesystem xbacklight volume xkeyboard memory cpu wlan eth battery temperature date 
 
 tray-position = right
 tray-padding = 2
@@ -133,8 +134,8 @@ ws-icon-0 = 1;
 ws-icon-1 = 2;
 ws-icon-2 = 3;
 ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;6
+ws-icon-4 = 5;
+ws-icon-5 = 6;
 ws-icon-6 = 7;7
 ws-icon-7 = 8;8
 ws-icon-8 = 9;9
@@ -164,7 +165,7 @@ label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %index%
+label-urgent = %icon%
 label-urgent-background = ${module/bspwm.label-urgent-background}
 label-urgent-padding = ${module/bspwm.label-urgent-padding}
 

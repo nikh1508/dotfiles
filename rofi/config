@@ -8,19 +8,20 @@ rofi.opacity:                        90
 ! Window width
 rofi.width:                          100
 ! Number of lines
-rofi.lines:                          4
+rofi.lines:                          5
 ! Number of columns
 rofi.columns:                        1
 ! Font to use
-rofi.font:                           System San Fransisco Display 14
+!rofi.font:                           System San Fransisco Display 15
+rofi.font:                            Operator Mono Book 16
 ! Color scheme for normal row
-rofi.color-normal:                   #222222, #b1b4b3, #222222, #005577, #b1b4b3
+rofi.color-normal:                   #222222, #b1b4b3, #222222, #222222, #BF49D9
 ! Color scheme for urgent row
 rofi.color-urgent:                   #222222, #b1b4b3, #222222, #77003d, #b1b4b3
 ! Color scheme for active row
-rofi.color-active:                   222222, #b1b4b3, #222222, #007763, #b1b4b3" 
+rofi.color-active:                   #222222, #b1b4b3, #222222, #007763, #b1b4b3" 
 ! Color scheme window
-rofi.color-window:                   #222222, #222222, #b1b4b3
+rofi.color-window:                   #222222, #222222, #222222
 ! Border width
 rofi.bw:                             1
 ! Location on screen
@@ -34,11 +35,11 @@ rofi.xoffset:                        0
 ! Always show number of lines
 rofi.fixed-num-lines:                false
 ! Terminal to use
-rofi.terminal:                       rofi-sensible-terminal
+rofi.terminal:                       terminator
 ! Ssh client to use
 rofi.ssh-client:                     ssh
 ! Ssh command to execute
-rofi.ssh-command:                    {terminal} -e {ssh-client} {host}
+rofi.ssh-command:                    {terminal} -e '{ssh-client} {host}'
 ! Run command to execute
 rofi.run-command:                    {cmd}
 ! Command to get extra run targets
@@ -92,7 +93,7 @@ rofi.fake-transparency:              false
 ! DPI
 rofi.dpi:                            -1
 ! Threads to use for string matching
-rofi.threads:                        1
+rofi.threads:                        2
 ! Scrollbar width
 rofi.scrollbar-width:                8
 ! Scrolling method. (0: Page, 1: Centered)
