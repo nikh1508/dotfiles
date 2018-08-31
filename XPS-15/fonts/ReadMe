@@ -1,0 +1,5 @@
+#   Copy all these fonts to any of the following location :
+
+1. /usr/share/fonts/[TTF]  //For TTF Fonts. There are options for other formats too.
+
+2. /.local/share/fonts/
