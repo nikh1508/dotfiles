@@ -45,3 +45,7 @@ echo terminator
 mkdir -p zsh
 sudo cp $HOME/.zshrc zsh/
 echo zsh
+
+# dunst
+cp -r ~/.config/dunst .
+echo dunst

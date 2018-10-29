@@ -100,4 +100,9 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 alias cp="xclip -sel clip"
+alias start="sudo systemctl start"
+alias stop="sudo systemctl stop"
+alias restart="sudo systemctl restart"
+alias status="sudo systemctl status"
+
 screenfetch
